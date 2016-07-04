@@ -1,0 +1,65 @@
+body{
+    background-color: #F6F6F7;
+}
+
+.dz-default.dz-message{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    height: 100%;
+    /*padding-top: 40px;*/
+    padding-top: 20px;
+}
+
+.dz-default.dz-message:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+
+.dz-drag-hover{
+    background-color: #2E3C54;
+    color: white;
+}
+
+.ui.button.patientPrimary {
+    /*background-color: #2E3C54;*/
+    background-color: #424F64;
+    color: white;
+}
+
+.ui.button.patientPrimary:hover{
+    background-color: #2E3C54;
+}
+
+.topHeaderLink{
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 25px;
+    color: #2E3C54;
+    /*padding-top: 10px;*/
+    padding-top: 13px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.topHeaderLink:hover{
+    border-bottom: 3px solid #FC636B;
+    padding-bottom: 5px;
+}
+
+.topHeaderLink.active{
+    border-bottom: 3px solid #FC636B;
+    padding-bottom: 5px;
+}
+
+.hoverPurpleBackground:hover{
+    background-color: rgba(137, 142, 149, 0.1) !important;
+}
+
+.hoverYellowBackground:hover{
+    background-color: #FFFDE7 !important;
+}
