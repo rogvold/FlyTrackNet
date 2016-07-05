@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "FlyTrackNetDev": {
+      "applicationId": "ObwhmD2UAqXA9CkFfEAsOToHAIgp4kcTGuQNxUds"
+    },
+    "_default": {
+      "link": "FlyTrackNetDev"
+    }
+  }
+}

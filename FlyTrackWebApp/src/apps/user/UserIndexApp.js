@@ -81,6 +81,15 @@ var UserIndexApp = React.createClass({
                         {user == undefined ? null :
                             <div>
 
+                                <span>
+                                    {user.firstName}
+                                </span>
+
+                                -
+
+                                <span>
+                                    {user.lastName}
+                                </span>
 
 
                             </div>

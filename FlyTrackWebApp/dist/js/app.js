@@ -48275,7 +48275,6 @@ var LoginApp = React.createClass({displayName: "LoginApp",
             width: 200
         }
 
-
     },
 
     render: function () {
@@ -48515,8 +48514,17 @@ var UserIndexApp = React.createClass({displayName: "UserIndexApp",
 
                 React.createElement("div", null, 
                         user == undefined ? null :
-                            React.createElement("div", null
+                            React.createElement("div", null, 
 
+                                React.createElement("span", null, 
+                                    user.firstName
+                                ), 
+
+                                "-", 
+
+                                React.createElement("span", null, 
+                                    user.lastName
+                                )
 
 
                             )
@@ -51868,8 +51876,13 @@ var constants = {
     //PARSE_JS_KEY: '0ppjIVaWy3aqHyGEA95InejakxRELOMrePgRfREt', //CardioMood
     //PARSE_REST_API_KEY: '',
 
-    PARSE_APP_ID: 'ObwhmD2UAqXA9CkFfEAsOToHAIgp4kcTGuQNxUds', //CardioFirstDev
-    PARSE_JS_KEY: 'OwoK9BPWoxFWCKJgIDlUlgIn72mk9Y5p88olwhIO', //CardioFirstDev
+    //PARSE_APP_ID: 'ObwhmD2UAqXA9CkFfEAsOToHAIgp4kcTGuQNxUds', //FlyTrackNetDev
+    //PARSE_JS_KEY: 'OwoK9BPWoxFWCKJgIDlUlgIn72mk9Y5p88olwhIO', //FlyTrackNetDev
+
+    PARSE_APP_ID: 'ZhlYHr1uAjC7CJB7l1QVfuzsJIwpp51J5KpQYOco',
+    PARSE_JS_KEY: 'kQpPbPSSJwvfnT9pJ2ZoxtEfbDdzr1bZQzxJGbzN',
+
+
     PARSE_REST_API_KEY: ''
 
 }

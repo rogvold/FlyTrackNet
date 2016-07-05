@@ -58,7 +58,6 @@ var LoginApp = React.createClass({
             width: 200
         }
 
-
     },
 
     render: function () {
